@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Notícias - Portal IFC Blumenau</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .content {
+      text-align: center;
+    }
+
+    .news-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+      max-width: 1000px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .news-card {
+      background-color: #fff;
+      border: 2px solid #00800040;
+      border-radius: 15px;
+      padding: 1.5rem;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: left;
+    }
+
+    .news-card h3 {
+      color: #006400;
+      margin-bottom: 0.5rem;
+    }
+
+    .news-card p {
+      color: #333;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Portal IFC Blumenau</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="noticias.html">Notícias</a></li>
+        <li><a href="materiais.html">Materiais de Estudo</a></li>
+        <li><a href="disciplinas.html">Matérias da Escola</a></li>
+        <li><a href="calendario.html">Calendário</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="content">
+    <h2>Notícias 📰</h2>
+    <p>Fique por dentro das últimas novidades do IFC Blumenau!</p>
+
+    <div class="news-container">
+      <div class="news-card">
+        <h3>📅 Início do semestre 2025</h3>
+        <p>As aulas do novo semestre terão início no dia 10 de fevereiro. Confira seu horário na secretaria.</p>
+      </div>
+      <div class="news-card">
+        <h3>🏆 Semana Acadêmica</h3>
+        <p>A Semana Acadêmica acontecerá de 15 a 19 de abril, com palestras, oficinas e apresentações de projetos.</p>
+      </div>
+      <div class="news-card">
+        <h3>🛠️ Manutenção nos Laboratórios</h3>
+        <p>Os laboratórios de informática passarão por manutenção entre os dias 5 e 8 de março. Programe-se!</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Portal IFC Blumenau</p>
+  </footer>
+</body>
+</html>

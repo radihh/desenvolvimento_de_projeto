@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Calendário - Portal IFC Blumenau</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .content {
+      text-align: center;
+    }
+
+    .calendar-container {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1.5rem;
+      background-color: #fff;
+      border: 2px solid #00800040;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 0.8rem;
+      text-align: center;
+    }
+
+    th {
+      background-color: #008000;
+      color: white;
+    }
+
+    td.highlight {
+      background-color: #90ee90;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Portal IFC Blumenau</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="noticias.html">Notícias</a></li>
+        <li><a href="materias.html">Materiais de Estudo</a></li>
+        <li><a href="disciplinas.html">Matérias da Escola</a></li>
+        <li><a href="calendario.html">Calendário</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="content">
+    <h2>Calendário Acadêmico 🗓️</h2>
+    <p>Acompanhe abaixo as principais datas do ano letivo de 2025.</p>
+
+    <div class="calendar-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Mês</th>
+            <th>Evento</th>
+            <th>Data</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Fevereiro</td>
+            <td>Início das aulas</td>
+            <td class="highlight">10/02</td>
+          </tr>
+          <tr>
+            <td>Março</td>
+            <td>Semana de provas 1º bimestre</td>
+            <td class="highlight">18/03 a 22/03</td>
+          </tr>
+          <tr>
+            <td>Abril</td>
+            <td>Semana Acadêmica</td>
+            <td class="highlight">15/04 a 19/04</td>
+          </tr>
+          <tr>
+            <td>Julho</td>
+            <td>Férias escolares</td>
+            <td class="highlight">01/07 a 15/07</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Portal IFC Blumenau</p>
+  </footer>
+</body>
+</html>

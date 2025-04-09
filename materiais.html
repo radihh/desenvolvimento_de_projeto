@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Materiais de Estudo - Portal IFC Blumenau</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .content {
+      text-align: center;
+    }
+
+    .material-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+      max-width: 1000px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .material-card {
+      background-color: #fff;
+      border: 2px solid #00800040;
+      border-radius: 15px;
+      padding: 1.5rem;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: left;
+    }
+
+    .material-card h3 {
+      color: #006400;
+      margin-bottom: 0.5rem;
+    }
+
+    .material-card ul {
+      padding-left: 1.2rem;
+    }
+
+    .material-card li::before {
+      content: "📎 ";
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Portal IFC Blumenau</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="noticias.html">Notícias</a></li>
+        <li><a href="materias.html">Materiais de Estudo</a></li>
+        <li><a href="disciplinas.html">Matérias da Escola</a></li>
+        <li><a href="calendario.html">Calendário</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="content">
+    <h2>Materiais de Estudo 📚</h2>
+    <p>Confira materiais e links úteis para apoiar seus estudos no IFC Blumenau.</p>
+
+    <div class="material-grid">
+      <div class="material-card">
+        <h3>Matemática</h3>
+        <ul>
+          <li><a href="#">Apostila de Funções</a></li>
+          <li><a href="#">Exercícios Resolvidos</a></li>
+        </ul>
+      </div>
+      <div class="material-card">
+        <h3>Programação</h3>
+        <ul>
+          <li><a href="#">Introdução ao Python</a></li>
+          <li><a href="#">Desafios de Lógica</a></li>
+        </ul>
+      </div>
+      <div class="material-card">
+        <h3>Português</h3>
+        <ul>
+          <li><a href="#">Redação: Dicas e Estrutura</a></li>
+          <li><a href="#">Literatura Brasileira</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Portal IFC Blumenau</p>
+  </footer>
+</body>
+</html>
